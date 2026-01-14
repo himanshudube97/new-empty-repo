@@ -15,9 +15,18 @@ sources:
   - name: visits
     identifier: visits
     description: ''
+  - name: gelina
+    identifier: gelina
+    description: ''
 - name: production
   schema: production
   tables:
   - name: gelina
     identifier: gelina
+    description: ''
+- name: staging
+  schema: staging
+  tables:
+  - name: Indian_states_data
+    identifier: Indian_states_data
     description: ''
