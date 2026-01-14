@@ -3,8 +3,8 @@
 
 {{ config(materialized='table', schema='intermediate') }}
 WITH cte1 as (
-SELECT "id", "phone", "bone"
-FROM {{ source('public', 'table1') }}
+SELECT "f_geometry_column", "srid", "f_table_catalog", "_airbyte_emitted_at", "coord_dimension", "f_geography_column", "f_table_name", "type"
+FROM {{ source('production', 'gelina') }}
 )
 -- Final SELECT statement combining the outputs of all CTEs
 SELECT *
