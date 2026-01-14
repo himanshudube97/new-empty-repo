@@ -1,0 +1,8 @@
+version: 2
+sources:
+- name: public
+  schema: public
+  tables:
+  - name: table1
+    identifier: table1
+    description: ''
