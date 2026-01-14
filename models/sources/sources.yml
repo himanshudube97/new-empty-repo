@@ -6,3 +6,12 @@ sources:
   - name: table1
     identifier: table1
     description: ''
+  - name: geometry_columns
+    identifier: geometry_columns
+    description: ''
+  - name: spatial_ref_sys
+    identifier: spatial_ref_sys
+    description: ''
+  - name: visits
+    identifier: visits
+    description: ''
